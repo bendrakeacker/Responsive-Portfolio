@@ -6,7 +6,7 @@
     <title>Contact Info</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 pt-5">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -19,8 +19,35 @@
           </div>
         </div>
     </nav>
+    <br>
+    <br>
+    <div class="container pt-5">
+        <div class="jumbotron">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
 
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
+    
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
           <small> &copy; Copyright </small>
         </div>
