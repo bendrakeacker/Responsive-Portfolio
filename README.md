@@ -1,6 +1,5 @@
-# Responsive-Portfolio
-The Responsive Portfolio is a mock personal webpage displaying a brief self biography, profile picture, social media links, and other photos within a responsive multi-page site. It is a first attempt at a more complex use of semantic HTML and CSS via Bootstrap. The goal of this project was to rely on bootstrap as much as possible for the web design and to familiarize one's self with cdn links.
+# Updated Portfolio
 
-The three pages share several characteristics, including a navbar, a jumbotron within a container, and a footer (all extracted from bootstrap). This was to give the site a consistent and simple look. These three sections of code served as the backbone for the site. Within the portfolio and index page jumbotrons are grid systems to exercise organizing pages in different manners, but maintain a neat and homogenous layout. 
+This is an updated portfolio page including a small biography, a portfolio page with my recent projects, and my contact info.
 
-Due to time constraint and urgency of another (arguably more important) project with a fast approaching deadline, the page contains imperfect responsiveness across devices. Though snap points are evident, they do not always re-format the page to look the way it should. Please forgive this, as it is the works of a novice (if that) developer.
+![](assets/images/img.png)

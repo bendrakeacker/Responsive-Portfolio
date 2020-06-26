@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Acker</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/spacelab/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sIQOcNYer0kt7oTyFe/YrGzKMFP/qxsJbXTxq0/uiZQgpwXwEu41sVz2M61lWbai" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-<body class="pt-5"> 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mt-auto p-0">      
-    <section class="container-fluid">  
-        <section class="navbar-header">
-            <a class="navbar-brand bg-primary p-2 m-0" href="#"><h2>Ben Acker</h2></a>
-        </section>
-        <section class="nav navbar-nav navbar-right">           
-                <a class="nav-link" href="./index.html">About</a>                       
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>                  
-                <a class="nav-link" href="./contact.html">Contact</a>           
-        </section>
-    </section>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">      
+		<section class="container-fluid">  
+			<section class="navbar-header">
+				<a class="navbar-brand p-2 m-0" href="#"><h2>Ben Acker</h2></a>
+			</section>
+			<section class="nav navbar-nav navbar-right">           
+					<a class="nav-link" href="index.html">About</a>                       
+					<a class="nav-link" href="assets/portfolio.html">Portfolio</a>                  
+					<a class="nav-link" href="assets/contact.html">Contact</a>           
+			</section>
+		</section>
     </nav>
     <br>
     <br>
     
-    <section class="container pt-5">
+    <main class="card mb-3 shadow mx-auto proj-card" style="width: 900px;">
+        
         <section class="jumbotron mt-auto">
             
             <h1 class="display-4">ABOUT ME</h1>
             <section class="row">  
                 <section class="col-4 col-md-2">
-                    <img src="./IMG_0398.jpeg" class="img-thumbnail">
+                    <img src="assets/images/IMG_0398.jpeg" class="img-thumbnail">
                 </section>  
                 <section class="col-8 col-md-5">         
                 <p class="lead">I am a 20 year from Manhattan currently studying environmental science at NYU. 
@@ -38,36 +42,34 @@
                 </section> 
             </section>
         </section>
-    </section>
+    </main>
     <br>
     <br>
     <br>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <section class="row container text-center h-100">
-           
-            <small class="col-12 text-center"> &copy; Copyright </small>
+    <footer>
+        <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-dark">
+            <figure class="container footerIcons">
+                <section class="row mx-auto">
+                    <a class="col pr-5" href="https://github.com/bendrakeacker" target="_blank"><i class="fa fa-github"
+                            aria-hidden="true"></i></a>
+                    <a class="col x-5" href="mailto:bda5464@nyu.edu" target="_blank"><i class="fa fa-envelope"
+                            aria-hidden="true"></i></a>
+                    <a class="col pl-5" href="https://www.linkedin.com/in/ben-acker-6004a11a3/" target="_blank"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="col pl-5" href="mailto:646-675-0281" target="_blank"><i class="fa fa-phone"
+                            aria-hidden="true"></i></a>
+                    <a class="col pl-5"
+                        href="https://www.linkedin.com/in/gary-bergman/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABgZvuMBTIC7l4GDllMrHMxf6YSZiQUnPg4,1592867288278)/"
+                        target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
 
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="https://github.com/bendrakeacker">My Github</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/ben-acker-6004a11a3/">My Linkedin</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.facebook.com/ben.acker.12/r">My Facebook</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.instagram.com/bendrakeacker/">My Instagram</a>
-                </li>
-              </ul>
-            
-        </section>
+                </section>
+            </figure>
+        </nav>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-</body>
+</body>›
 </html>
